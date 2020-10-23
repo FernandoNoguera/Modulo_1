@@ -18,7 +18,7 @@
   <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <a class="navbar-brand" href="#">Awakelab</a>
+      <a class="navbar-brand" href="img/logo-salud.jpg"></a>
 
       <!-- Navigation Bar Hamburger-->
       <button
@@ -118,16 +118,69 @@
     <div class="container-fluid bg-principal" id="principal">
       <div class="row">
         <div class="col-sm-12">
-          <div class="jumbotron jumbotron-main">
-            <h2>Grupo Full Stack Python</h2>
-            <h3>Awakelab</h3>
+          <div class="container-fluid bg-light" id="equipo">
+            <div class="row">
+              <h3>Queremos que te mejores</h3>
+            </div>
+            <div class="row">
+              <div id="team-carousel" 
+                  class="carousel slide" 
+                  data-ride="carousel" 
+                  data-interval="3000">
+                <div class="carousel-inner" style="padding: 4rem;" role="listbox">
+                  <div style="height: 400px" class="carousel-item active">
+                    <img class="d-block img-fluid carousel-img" src="img/medicinageneral.jpg">
+                    <div class="carousel-caption">
+                      Excelencia
+                    </div>
+                  </div>
+                  <div style="height: 400px" class="carousel-item">
+                    <img class="d-block img-fluid carousel-img" src="img/med1.jpg">
+                    <div class="carousel-caption">
+                      Tecnología de punta
+                    </div>
+                  </div>
+                  <div style="height: 400px" class="carousel-item">
+                    <img class="d-block img-fluid carousel-img" src="img/med2.jpg">
+                    <div class="carousel-caption">
+                      Asesoria
+                    </div>
+                  </div>
+                </div>
+                <a class="left carousel-control" 
+                    href="#team-carousel" 
+                    role="button" 
+                    data-slide="prev">
+                  <span class="icon-prev" aria-hidden="true"></span>
+                </a>
+                <a class="right carousel-control" 
+                    href="#team-carousel" 
+                    role="button" 
+                    data-slide="next">
+                  <span class="icon-next" aria-hidden="true"></span>
+                </a>
+                <ol class="carousel-indicators">
+                  <li data-target="#team-carousel" 
+                      data-slide-to="0" 
+                      class="active"></li>
+                  <li data-target="#team-carousel" 
+                      data-slide-to="1"></li>
+                  <li data-target="#team-carousel" 
+                      data-slide-to="2"></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <!-- End Section: Equipo -->
+
+
           </div>
         </div>
       </div>
     </div>
     <!-- End Section: Principal -->
 
-    <!-- Section: Competencias -->
+    <!-- Section: Competencias 
     <div class="container-fluid bg-dark" id="competencias">
       <div class="row">
         <h3>Nuestras Competencias</h3>
@@ -214,63 +267,10 @@
         </div>
       </div>
     </div>
-    <!-- End Section: Competencias -->
+     End Section: Competencias -->
 
     <!-- Section: Equipo -->
-    <div class="container-fluid bg-light" id="equipo">
-      <div class="row">
-        <h3>Nuestro Equipo</h3>
-      </div>
-      <div class="row">
-        <div id="team-carousel" 
-            class="carousel slide" 
-            data-ride="carousel" 
-            data-interval="3000">
-          <div class="carousel-inner" style="padding: 4rem;" role="listbox">
-            <div style="height: 400px" class="carousel-item active">
-              <img class="d-block img-fluid carousel-img" src="img/group1.jpg">
-              <div class="carousel-caption">
-                Grupo Front End
-              </div>
-            </div>
-            <div style="height: 400px" class="carousel-item">
-              <img class="d-block img-fluid carousel-img" src="img/group2.jpg">
-              <div class="carousel-caption">
-                Grupo Back End
-              </div>
-            </div>
-            <div style="height: 400px" class="carousel-item">
-              <img class="d-block img-fluid carousel-img" src="img/group3.jpg">
-              <div class="carousel-caption">
-                Grupo DevOps
-              </div>
-            </div>
-          </div>
-          <a class="left carousel-control" 
-              href="#team-carousel" 
-              role="button" 
-              data-slide="prev">
-            <span class="icon-prev" aria-hidden="true"></span>
-          </a>
-          <a class="right carousel-control" 
-              href="#team-carousel" 
-              role="button" 
-              data-slide="next">
-            <span class="icon-next" aria-hidden="true"></span>
-          </a>
-          <ol class="carousel-indicators">
-            <li data-target="#team-carousel" 
-                data-slide-to="0" 
-                class="active"></li>
-            <li data-target="#team-carousel" 
-                data-slide-to="1"></li>
-            <li data-target="#team-carousel" 
-                data-slide-to="2"></li>
-          </ol>
-        </div>
-      </div>
-    </div>
-    <!-- End Section: Equipo -->
+    
 
     <!-- Section: Enlaces -->
     <div class="container-fluid bg-dark" id="enlaces">
