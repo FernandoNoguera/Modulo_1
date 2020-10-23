@@ -76,3 +76,31 @@ textarea {
     
     color: black;
 }
+hr{
+    border: 2px solid black;
+}
+#btn-parraf{
+    background-color: black;
+}
+p{
+    font-family: 'poiret, cursive';
+}
+#nav-private{
+    align-items: center;
+}
+#sidebar-container{
+    min-height: 70vh;
+    
+}
+#sidebar-container.logo{
+    padding: .875rem 2rem;
+}
+#sidebar-container.menu{
+   width: 18rem; 
+}
+.bg-primary{
+    background-color: lightblue !important ;
+}
+#parraf{
+    padding-right: 1rem;
+}
