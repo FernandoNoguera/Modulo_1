@@ -35,25 +35,32 @@
       <!-- Navigation Links -->
       <div class="collapse navbar-collapse" id="navigation">
          <ul class="navbar-nav mr-auto">
-            <li class="nav-item text-succes">
+            <li class="nav-item">
               <a
                 class="nav-link scroll-trigger" 
                 href="#principal">
-                  Inicio
+                  Grupo Python
               </a>
             </li>
             <li class="nav-item">
               <a 
                 class="nav-link scroll-trigger" 
-                href="#odonto">
-                  Odontología
+                href="#competencias">
+                  Competencias
               </a>
             </li>
             <li class="nav-item">
               <a 
                 class="nav-link scroll-trigger" 
-                href="#MedGeneral">
-                  Medicina General
+                href="#equipo">
+                  Equipo
+              </a>
+            </li>
+            <li class="nav-item">
+              <a 
+                class="nav-link scroll-trigger" 
+                href="#enlaces"> 
+                  Enlaces
               </a>
             </li>
             <li class="nav-item">
@@ -63,7 +70,7 @@
                   Contacto
               </a>
             </li>
-            <!-- <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a
                   href="#"
                   class="nav-link dropdown-toggle"
@@ -84,19 +91,23 @@
                   <a class="dropdown-item scroll-trigger"
                     data-toggle="modal"
                     data-target="#settings-modal">
-                        Iniciar sesion
+                        Configuración
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item scroll-trigger" href="">
+                      Logout
                   </a>
               </div>
-            </li> -->
+            </li>
          </ul>
          <form class="form-inline my-2 my-lg-0">
-<!--            <input class="form-control mr-sm-2" 
+           <input class="form-control mr-sm-2" 
               type="text"
-              placeholder="Buscar" 
-              aria-label="Search"> -->
+              placeholder="Search" 
+              aria-label="Search">
            <button class="btn btn-outline-success border-dark 
                     font-weight-bold text-white my-2 my-sm-0"
-                    type="submit">Crear cuenta</button>
+                    type="submit">Search</button>
          </form>
       </div>
       <!-- Navigation Links -->
@@ -107,67 +118,9 @@
     <div class="container-fluid bg-principal" id="principal">
       <div class="row">
         <div class="col-sm-12">
-          <div class="container-fluid bg-light" id="equipo">
-            <div class="row">
-              <h3>Queremos que te mejores</h3>
-              <p id="parraf">
-                Porque Mandala nació para hacer que tú ida al médico sea más expedita, y por que sabemos lo importante <br>
-                que es para ti el que puedas continuar tú día que esperas, inscribite Ya!
-                es gratuito.<br> Los datos nos avalan ven y revisa las estadisticas con nosotros.
-                <button class="btn btn-sucess border-dark-font-wight-bold text-black my-2 my-sm-0" type="submit" id="btn-parr">Clickeame</button>
-                
-              </p>
-            </div>
-            <div class="row">
-              <div id="team-carousel" 
-                  class="carousel slide" 
-                  data-ride="carousel" 
-                  data-interval="3000">
-                <div class="carousel-inner" style="padding: 4rem;" role="listbox">
-                  <div style="height: 400px" class="carousel-item active">
-                    <img class="d-block img-fluid carousel-img" src="img/medicinageneral.jpg">
-                    <div class="carousel-caption">
-                      Excelencia
-                    </div>
-                  </div>
-                  <div style="height: 400px" class="carousel-item">
-                    <img class="d-block img-fluid carousel-img" src="img/med1.jpg">
-                    <div class="carousel-caption">
-                      Tecnología de punta
-                    </div>
-                  </div>
-                  <div style="height: 400px" class="carousel-item">
-                    <img class="d-block img-fluid carousel-img" src="img/med2.jpg">
-                    <div class="carousel-caption">
-                      Asesoria
-                    </div>
-                  </div>
-                </div>
-                <a class="left carousel-control" 
-                    href="#team-carousel" 
-                    role="button" 
-                    data-slide="prev">
-                  <span class="icon-prev" aria-hidden="true"></span>
-                </a>
-                <a class="right carousel-control" 
-                    href="#team-carousel" 
-                    role="button" 
-                    data-slide="next">
-                  <span class="icon-next" aria-hidden="true"></span>
-                </a>
-                <ol class="carousel-indicators">
-                  <li data-target="#team-carousel" 
-                      data-slide-to="0" 
-                      class="active"></li>
-                  <li data-target="#team-carousel" 
-                      data-slide-to="1"></li>
-                  <li data-target="#team-carousel" 
-                      data-slide-to="2"></li>
-                </ol>
-              </div>
-            </div>
-          </div>
-          <!-- End Section: Equipo -->
+          <div class="jumbotron jumbotron-main">
+            <h2>Grupo Full Stack Python</h2>
+            <h3>Awakelab</h3>
           </div>
         </div>
       </div>
@@ -175,7 +128,7 @@
     <!-- End Section: Principal -->
 
     <!-- Section: Competencias -->
-    <!-- <div class="container-fluid bg-dark" id="competencias">
+    <div class="container-fluid bg-dark" id="competencias">
       <div class="row">
         <h3>Nuestras Competencias</h3>
       </div>
@@ -260,8 +213,65 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- End Section: Competencias -->
+
+    <!-- Section: Equipo -->
+    <div class="container-fluid bg-light" id="equipo">
+      <div class="row">
+        <h3>Nuestro Equipo</h3>
+      </div>
+      <div class="row">
+        <div id="team-carousel" 
+            class="carousel slide" 
+            data-ride="carousel" 
+            data-interval="3000">
+          <div class="carousel-inner" style="padding: 4rem;" role="listbox">
+            <div style="height: 400px" class="carousel-item active">
+              <img class="d-block img-fluid carousel-img" src="img/group1.jpg">
+              <div class="carousel-caption">
+                Grupo Front End
+              </div>
+            </div>
+            <div style="height: 400px" class="carousel-item">
+              <img class="d-block img-fluid carousel-img" src="img/group2.jpg">
+              <div class="carousel-caption">
+                Grupo Back End
+              </div>
+            </div>
+            <div style="height: 400px" class="carousel-item">
+              <img class="d-block img-fluid carousel-img" src="img/group3.jpg">
+              <div class="carousel-caption">
+                Grupo DevOps
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" 
+              href="#team-carousel" 
+              role="button" 
+              data-slide="prev">
+            <span class="icon-prev" aria-hidden="true"></span>
+          </a>
+          <a class="right carousel-control" 
+              href="#team-carousel" 
+              role="button" 
+              data-slide="next">
+            <span class="icon-next" aria-hidden="true"></span>
+          </a>
+          <ol class="carousel-indicators">
+            <li data-target="#team-carousel" 
+                data-slide-to="0" 
+                class="active"></li>
+            <li data-target="#team-carousel" 
+                data-slide-to="1"></li>
+            <li data-target="#team-carousel" 
+                data-slide-to="2"></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <!-- End Section: Equipo -->
+
     <!-- Section: Enlaces -->
     <div class="container-fluid bg-dark" id="enlaces">
       <div class="row">
