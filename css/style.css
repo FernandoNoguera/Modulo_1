@@ -1,8 +1,4 @@
-/*
-Awakelab
-Full Stack Python 2020
-*/
- 
+
 #competencias, 
 #contacto {
     padding-top: 60px;
@@ -131,4 +127,11 @@ p{
 }
 #parrafo-private{
     font-family: 'Courier New', Courier, monospace;
+}
+.NavButton{
+    margin-right: 2%;
+}
+.ImgProveedores{
+    width: 100%;
+    max-height: 400px;
 }
