@@ -122,6 +122,11 @@ p{
     margin-left: 85vmax;
 }
 #img-icon{
-    height: 50vh;
-    width: 50vh;
+    height: 30vh;
+    width: 30vh;
 }
+#row-sub{
+    text-align: center;
+    margin-left:50vh;
+}
+
