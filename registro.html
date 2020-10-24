@@ -18,7 +18,8 @@
   <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <a class="navbar-brand" href="#">Awakelab</a>
+      <a class="navbar-brand" href="index.html">The Great Clinic</a>
+
 
       <!-- Navigation Bar Hamburger-->
       <button
@@ -35,85 +36,44 @@
       <!-- Navigation Links -->
       <div class="collapse navbar-collapse" id="navigation">
          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+            <li class="nav-item text-succes">
               <a
                 class="nav-link scroll-trigger" 
-                href="#principal">
-                  Grupo Python
+                href="index.html">
+                  Inicio
               </a>
             </li>
             <li class="nav-item">
-              <a 
-                class="nav-link scroll-trigger" 
-                href="#competencias">
-                  Competencias
+              <a
+              class="nav-link scroll-trigger" 
+              href="Graficos.html">
+                Información Actual
               </a>
             </li>
             <li class="nav-item">
-              <a 
-                class="nav-link scroll-trigger" 
-                href="#equipo">
-                  Equipo
-              </a>
+              <a
+              class="nav-link scroll-trigger" 
+              href="Proveedores.html">
+                Proveedores
+            </a>
             </li>
-            <li class="nav-item">
-              <a 
-                class="nav-link scroll-trigger" 
-                href="#enlaces"> 
-                  Enlaces
-              </a>
-            </li>
-            <li class="nav-item">
               <a
                 class="nav-link scroll-trigger" 
                 href="#contacto">
                   Contacto
               </a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                  href="#"
-                  class="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false">
-                      Perfil <span class="caret"></span>
-              </a>
-              <div class="dropdown-menu dropdown-menu-right">
-                  <a 
-                    class="dropdown-item scroll-trigger"
-                    href="#"
-                    data-toggle="modal"
-                    data-target="#profile-modal">
-                      Perfil
-                  </a>
-                  <a class="dropdown-item scroll-trigger"
-                    data-toggle="modal"
-                    data-target="#settings-modal">
-                        Configuración
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item scroll-trigger" href="">
-                      Logout
-                  </a>
-              </div>
-            </li>
          </ul>
-         <form class="form-inline my-2 my-lg-0">
-           <input class="form-control mr-sm-2" 
-              type="text"
-              placeholder="Search" 
-              aria-label="Search">
-           <button class="btn btn-outline-success border-dark 
-                    font-weight-bold text-white my-2 my-sm-0"
-                    type="submit">Search</button>
-         </form>
+
+          <form class="form-inline my-2 my-lg-0 NavButton">
+            <button class="btn btn-outline-success border-dark 
+                     font-weight-bold text-white my-2 my-sm-0 NavButton"
+                     type="submit"> <a href="RegistroUsuario.html">Nuevo</a></button>
+           </form> 
       </div>
       <!-- Navigation Links -->
     </nav>
     <!-- End Navigation Bar -->
-
     <br>
     <div class="text-center">
       <p>-</p>
@@ -148,11 +108,14 @@
             <input type="password" class="form-control" id="exampleInputPassword1">
           </div>
           
-          <button type="submit" class="btn btn-primary"><a href="./PagePrivate.html">Entrar</a></button>
+          <!-- AGREGUE EL ON CLICK LLAMANDO A LA FUNCION -->
+          <button type="submit" class="btn btn-primary" 
+            onclick="ValidaCredenciales(getElementById('exampleInputEmail1'),getElementById('exampleInputPassword1'));">
+          <!-- AGREGUE EL ON CLICK LLAMANDO A LA FUNCION -->
+            Entrar</a></button>
       </div>
         </form>
     </div>
-
     
     <!-- END MODAL FORMS -->
 
@@ -172,5 +135,9 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
       crossorigin="anonymous">
     </script>
+
+    <!-- Loading Javasript link FYSU-->
+    <script language="JavaScript" src="js/app.js"></script> 
+
   </body>
 </html>
