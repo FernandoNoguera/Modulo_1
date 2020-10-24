@@ -83,7 +83,7 @@ hr{
     background-color: black;
 }
 p{
-    font-family: 'poiret, cursive';
+    font-family: 'poiret, cursive' !important;
 }
 #nav-private{
     align-items: center;
@@ -125,8 +125,10 @@ p{
     height: 30vh;
     width: 30vh;
 }
-#row-sub{
-    text-align: center;
-    margin-left:50vh;
+#run{
+    text-align: center;  
+    margin-left: 50vh; 
 }
-
+#parrafo-private{
+    font-family: 'Courier New', Courier, monospace;
+}
