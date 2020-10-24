@@ -112,11 +112,14 @@
             <input type="password" class="form-control" id="exampleInputPassword1">
           </div>
           
-          <button type="submit" class="btn btn-primary"><a href="./PagePrivate.html">Entrar</a></button>
+          <!-- AGREGUE EL ON CLICK LLAMANDO A LA FUNCION -->
+          <button type="submit" class="btn btn-primary" 
+            onclick="ValidaCredenciales(getElementById('exampleInputEmail1'),getElementById('exampleInputPassword1'));">
+          <!-- AGREGUE EL ON CLICK LLAMANDO A LA FUNCION -->
+            Entrar</a></button>
       </div>
         </form>
     </div>
-
     
     <!-- END MODAL FORMS -->
 
@@ -136,5 +139,9 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
       crossorigin="anonymous">
     </script>
+
+    <!-- Loading Javasript link FYSU-->
+    <script language="JavaScript" src="js/app.js"></script> 
+
   </body>
 </html>
