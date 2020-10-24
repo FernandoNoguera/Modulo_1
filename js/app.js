@@ -13,3 +13,4 @@ function ValidaCredenciales(usuario, password){
         location.href="./Registro.html";
     };
 }
+/* Graficos 
