@@ -16,6 +16,63 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html">The Great Clinic</a>
+
+
+      <!-- Navigation Bar Hamburger-->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navigation"
+        aria-expanded="false"
+        aria-controls="navigation" 
+        aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- End Navigation Bar Hamburger -->
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse" id="navigation">
+         <ul class="navbar-nav mr-auto">
+            <li class="nav-item text-succes">
+              <a
+                class="nav-link scroll-trigger" 
+                href="index.html">
+                  Inicio
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+              class="nav-link scroll-trigger" 
+              href="Graficos.html">
+                Información Actual
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+              class="nav-link scroll-trigger" 
+              href="Proveedores.html">
+                Proveedores
+            </a>
+            </li>
+              <a
+                class="nav-link scroll-trigger" 
+                href="#contacto">
+                  Contacto
+              </a>
+            </li>
+         </ul>
+         <form class="form-inline my-2 my-lg-0 NavButton">
+          <button class="btn btn-outline-success border-dark 
+                   font-weight-bold text-white my-2 my-sm-0 NavButton"
+                   type="submit"> <a href="index.html">Salir</a></button>
+         </form> 
+      </div>
+      <!-- Navigation Links -->
+    </nav>
+    <!-- End Navigation Bar -->
     <!-- Section: Visualizar y Agendar Citas -->
     <div class="container-fluid bg-light" id="contacto">
       <div class="row">
