@@ -34,7 +34,7 @@ Full Stack Python 2020
 }
 
 .navbar-dark {
-    background-color:lightblue;
+    background-color:lightskyblue;
 }
 
 h1, h2, h3, h4, h5, h6, .navbar, .modal { 
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, .navbar, .modal {
     background: rgba(0, 0, 0, 0.5); 
  }
 
- .card {
+.card {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -89,7 +89,7 @@ p{
     align-items: center;
 }
 #sidebar-container{
-    min-height: 70vh;
+    min-height: 100vh;
     
 }
 #sidebar-container.logo{
@@ -99,11 +99,29 @@ p{
    width: 18rem; 
 }
 .bg-primary{
-    background-color: lightblue !important ;
+    background-color:lightcyan!important ;
 }
 #parraf{
     padding-right: 1rem;
 }
 .imagen-perfil{
     align-items: center;
+}
+.bg-primary.menu{
+    background-color: green !important;
+    
+}
+#espacio{
+    margin-left: 53vh;
+}
+#espacio-centro{
+    margin-left: 77vh;
+    margin-bottom: 50%;
+}
+#espacio-left{
+    margin-left: 85vmax;
+}
+#img-icon{
+    height: 50vh;
+    width: 50vh;
 }
